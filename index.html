@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Huble- calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <section class="box">
+        <div class="top-bar"></div>
+
+        <div class="calculator">
+
+            <div class="keys container">
+              <button onclick="keyValue('+')">+</button>
+              <button onclick="keyValue('-')">-</button>
+              <button onclick="keyValue('*')">*</button>
+              <button onclick="keyValue('/')">/</button>
+      
+     
+              <button onclick="keyValue('1')">1</button>
+              <button onclick="keyValue('2')">2</button>
+              <button onclick="keyValue('3')">3</button>
+              <button onclick="keyValue('4')">4</button>
+
+              <button onclick="keyValue('5')">5</button>
+              <button onclick="keyValue('6')">6</button>
+              <button onclick="keyValue('7')">7</button>
+              <button onclick="keyValue('8')">8</button>
+
+              <button onclick="keyValue('9')">9</button>
+              <button onclick="keyValue('0')">0</button>
+              <button onclick="clearCalc()">C</button>
+              <button onclick="calculate()">=</button>
+              
+            </div>
+            
+          </div>
+
+          <div class="display">
+           
+            <label for="result">Result:</label>
+              <input type="text" id="result" placeholder="0" disabled>
+           
+            
+          </div>
+
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
